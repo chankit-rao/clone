@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Discord Clone">
+    <meta name="description" content="Discord clone for project by using HTML,Tailwind">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="CHANKIT YADAV">
+    <title>Discord | Your Place to Talk and Hang Out</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="bg-[#404EED] font-sans">
+
+        <div class="text-[#fff] max-w-[1200px] mx-auto flex justify-between h-[72px] items-center xl:px-0 px-7">
+
+            <!-- logo -->
+            <div class="">
+                <img src="./images/logo.svg" alt="">
+            </div>
+
+            <!-- nav-items -->
+            <div class="hidden xl:flex gap-10 font-sans font-[600] text-[16px]">
+                <a href="https://discord.com/download" class="capitalize hover:underline"> download
+                </a>
+
+                <a href="https://discord.com/nitro" class="capitalize hover:underline"> nitro
+                </a>
+
+                <a href="https://discord.com/servers" class="capitalize hover:underline"> discover
+                </a>
+
+                <a href="https://discord.com/safety" class="capitalize hover:underline"> safety
+                </a>
+
+                <a href="https://support.discord.com/hc/en-us" class="capitalize hover:underline"> support
+                </a>
+
+                <a href="https://discord.com/blog" class="capitalize hover:underline">
+                    blog
+                </a>
+
+                <a href="https://discord.com/careers" class="capitalize hover:underline">
+                    careers
+                </a>
+            </div>
+
+            <!-- open discord button -->
+            <div class="hidden lg:flex">
+                <a href="https://discord.com/login">
+                    <button
+                        class="bg-[#fff] px-4 self-center p-2 text-[black] rounded-full font-[500] text-[14px] hover:text-[#404EED] transition-all duration-200">
+                        Log In
+                    </button>
+                </a>
+            </div>
+
+            <!-- hambuger icon -->
+            <div class="xl:hidden block">
+                <i class="fa-solid fa-bars text-[23px]"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section  -->
+    <div class="bg-[#404EED] -mt-1 pt-[80px] relative">
+        <div class="w-full overflow-hidden relative  h-[80vh] mb-0 pb-0">
+
+            <img src="./images/Image0.svg" alt="" class="absolute -bottom-3 top-auto">
+            <img src="./images/Image1.svg" alt="" class="absolute -right-[155px] bottom-0 w-[600px]">
+            <img src="./images/Image2.svg" alt="" class="absolute -left-[155px] bottom-0 w-[600px]">
+
+            <div class="w-3/5 mx-auto flex flex-col items-center justify-center gap-y-4">
+                <h2 class="font-sans font-extrabold text-[70px] text-[#fff]">IMAGINE A PLACE...</h2>
+                <h4 class="font-sans text-[#fff] text-[20px] text-center leading-6">...where you can belong to a school
+                    club, a gaming group, or a worldwide art community. Where just you and a handful of friends can
+                    spend time together. A place that makes it easy to talk every day and hang out more often.</h4>
+
+                <div class=" flex justify-between gap-8 mt-8">
+                    <div class="text-[18px] p-3 px-5 rounded-3xl font-bold cursor-pointer ">
+                        <a
+                            href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64" class=" bg-[#fff] p-3 px-7 rounded-full hover:cursor-pointer hover:text-[#404EED]">
+                            
+                            <i class="fa-solid fa-download pr-1"></i> Download for Windows
+                        </a>
+                    </div>
+
+                    <div class="bg-black text-[#fff] text-[18px] p-3 px-5 rounded-3xl font-bold">
+                        Open Discord in your browser
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- second feature -->
+    <section class="  flex gap-10 items-center justify-center mx-auto w-full" >
+        <!-- images left part -->
+        <div class="">
+            <img src="./images/section1Image.svg" alt="" class="w-[700px] h-[700px] " loading="lazy">
+        </div>
+
+        <!-- right part -->
+        <div class="flex flex-col  basis-[500px] items-center gap-y-5">
+            <h2 class="font-sans font-bold text-[50px] self-start leading-tight">Create an invite-only place where you belong</h2>
+            <p class="text-gray-700 text-justify w- mx-0">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+        </div>
+    </section>
+
+    <!-- third feature  -->
+    <section class="bg-gray-200 flex gap-10 items-center justify-center mx-auto w-full" >
+        <!-- images left part -->
+        <div class="flex flex-col w-[400px] items-center gap-y-5">
+            <h2 class="font-sans font-bold text-[50px] self-start leading-tight">Where hanging out is easy</h2>
+            <p class="text-gray-700 text-justify w- mx-0">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+        </div>
+        
+
+        <!-- right part -->
+        <div class="">
+            <img src="./images/section2Image.svg" alt="" class="w-[700px] h-[700px] " loading="lazy">
+        </div>
+    </section>
+
+    <!-- fourth feature  -->
+    <section class="  flex gap-10 items-center justify-center mx-auto w-full" >
+        <!-- images left part -->
+        <div class="">
+            <img src="./images/section3Image.svg" alt="" class="w-[700px] h-[700px] " loading="lazy">
+        </div>
+
+        <!-- right part -->
+        <div class="flex flex-col  basis-[400px] items-center gap-y-5">
+            <h2 class="font-sans font-bold text-[50px] self-start leading-tight">From few to a fandom</h2>
+            <p class="text-gray-700 text-justify w- mx-0 leading-7">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+        </div>
+    </section>
+
+    <!-- fivth section  -->
+    <section class="">
+        <div class="w-2/3 mx-auto">
+            <h1 class="font-extrabold text-[50px] mb-4 text-center">RELIABLE TECH FOR STAYING CLOSE</h1>
+            <p class="text-gray-700 text-[18px] text-center">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+        </div>
+
+        <img src="./images/section4Image.svg" alt="" class="-mt-1 h-[700px] mx-auto">
+
+        <img src="./images/section5Image.svg" alt="" class="w-full">
+
+        <div class="relative  mx-auto">
+            <h2 class="font-bold text-[30px] text-center mb-5">Ready to start your Journey?</h2>
+            <a
+            href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64" class=" bg-[#404EED] p-3 px-7 rounded-full text-white block w-[250px] mx-auto">
+            
+            <i class="fa-solid fa-download pr-1"></i> Download for Windows
+        </a>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <section class="bg-black py-2 text-[#fff] mt-9">
+        <marquee behavior="scroll" direction="right" class="font-sans font-semibold text-[25px]">Discord Clone</marquee>
+    </section>
+
+
+</body>
+
+</html>
